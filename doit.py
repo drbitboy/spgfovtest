@@ -40,7 +40,7 @@ if "__main__"==__name__:
 
     shape,frame,bsight,n,bounds = sp.getfov(insid, 4, 32, 32)
 
-    print("""------------------------------------
+    print("""--------------------------------------
 Instrument ID:  %d
     FOV shape:  %s
     FOV frame:  %s
@@ -49,3 +49,5 @@ FOV boresight:  %f %f %f
     )
 
     for bound in bounds:  print('              %10.6f%10.6f%10.6f' % tuple(bound))
+
+  print("""--------------------------------------""")
