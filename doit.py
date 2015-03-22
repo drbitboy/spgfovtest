@@ -20,8 +20,6 @@ if "__main__"==__name__:
 
   docUrl = __doc__.strip().split('\n')[-1].strip()
 
-  print(docUrl)
-
   IK = 'subdir/example.ti'
   IKdir = os.path.dirname(IK)
 
