@@ -1,5 +1,5 @@
 # spgfovtest
-SpiceyPy implementation of GETFOV example provided in NAIF/SPICE toolkit
+[SpiceyPy](https://github.com/AndrewAnnex/SpiceyPy) implementation of GETFOV example provided in NAIF/SPICE toolkit
 
 Usage: python doit.py
 
